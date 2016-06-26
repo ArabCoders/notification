@@ -1,0 +1,30 @@
+{
+    "name": "arabcoders/notification",
+    "type": "library",
+    "description": "Notification Abstract Layer",
+    "keywords": [
+        "Notification",
+        "Prowl",
+        "PushOver",
+        "NotifyMyAndroid"
+    ],
+    "homepage": "https://www.abdulmohsen.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AbdulMohsen B. A. A.",
+            "email": "admin@arabcoders.org",
+            "homepage": "http://abdulmohsen.me",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arabcoders\\notification\\": "src/"
+        }
+    }
+}
+
